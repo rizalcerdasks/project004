@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/nav_home"
+        android:icon="@drawable/house"
+        android:title="Home"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/nav_store"
+        android:icon="@drawable/store"
+        android:title="Store"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/nav_event"
+        android:icon="@drawable/planner"
+        android:title="Event"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/nav_community"
+        android:icon="@drawable/community"
+        android:title="Community"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/nav_facebook"
+                android:icon="@drawable/fb"
+                android:title="Facebook"
+                app:showAsAction="never"/>
+            <item android:id="@+id/nav_instagram"
+                android:icon="@drawable/instagram"
+                android:title="Instagram"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/nav_topup"
+        android:icon="@drawable/up"
+        android:title="Top Up"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_search"
+        android:icon="@drawable/search"
+        android:title="Search"
+        app:showAsAction="always"/>
+</menu>

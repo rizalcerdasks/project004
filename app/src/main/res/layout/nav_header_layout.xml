@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/bgnav">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:src="@drawable/boneka"
+            app:civ_border_color="@android:color/holo_blue_light"
+            app:civ_border_width="2dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <TextView
+            android:id="@+id/text_fish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FISH"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:scrollHorizontally="true"/>
+        <TextView
+            android:id="@+id/text_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="fish@maybank.co.id"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</layout>

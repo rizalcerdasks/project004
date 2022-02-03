@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/group"
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/house"
+            android:title="Home"
+
+            />
+
+        <item android:id="@+id/nav_contact_us"
+            android:icon="@drawable/store"
+            android:title="Store"
+            />
+
+        <item android:id="@+id/nav_about_us"
+            android:icon="@drawable/planner"
+            android:title="Event"
+            />
+
+        <item android:id="@+id/nav_community"
+            android:icon="@drawable/community"
+            android:title="Community"
+           />
+
+        <item android:id="@+id/nav_topup"
+            android:icon="@drawable/up"
+            android:title="Top Up"
+           />
+    </group>
+
+
+</menu>
